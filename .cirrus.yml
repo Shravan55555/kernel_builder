@@ -15,7 +15,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone -b bio  https://github.com/Amritorock/kernel_realme_r5x r5x --depth=1 && cd r5x 
+    - git clone -b bio --depth=1  https://github.com/Amritorock/kernel_realme_r5x r5x && cd r5x 
     - bash build.sh
 
 
