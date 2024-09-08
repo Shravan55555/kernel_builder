@@ -1,7 +1,7 @@
 env:
-  token: "ENCRYPTED[!12070119ffc60c5bce0262201964e052b53b6d5b11759d25418aba32b79e3e07054c6ce0f1b95e700b96d0f54d50dda1!]"
+  token: "ENCRYPTED[!414ff46c26e638f951714c8741af7b51f77812c4eb08d3076a0ed56607437bea241448e1b1657187d71cdd63f9214bee!]"
 
-  chat_id: "ENCRYPTED[!9c80effa4f8d8b6c79debd3a91290260a28cc203cbacb2431fbd9ae2929153996b7ab7a42e6ff1a635aefdc04404a2e2!]"
+  chat_id: "ENCRYPTED[!655813cb6986b79acdf80606f20b48274840a8ff388e13c01fd1964ccfb0f6ec22304c635c1d473b00ce3f39939e6874!]"
 
 
 task:
@@ -15,7 +15,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone --depth=1 https://github.com/Amritorock/kernel_realme_r5x -b android-15 r5x && cd r5x
+    - git clone --depth=1 https://github.com/sksayz5/kernel_realme_r5x -b 14 RMX1901 && cd RMX1901
     - bash build.sh
 
 
