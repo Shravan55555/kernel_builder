@@ -15,7 +15,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone --depth=1 https://github.com/sksayz5/kernel_realme_r5x -b 14 RMX1901 && cd RMX1901
+    - git clone --depth=1 https://github.com/sksayz5/kernel_realme_sdm710 -b 14 RMX1901 && cd RMX1901
     - bash build.sh
 
 
