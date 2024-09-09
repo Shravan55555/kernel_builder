@@ -16,7 +16,7 @@ task:
   Build_script:
 
     - git clone https://$GH_TOKEN@github.com/sksayz5/Build_Script.git b main RMX1901 && cd RMX1901
-    - bash build.sh
+    - bash build.sh -s
 
 
 
