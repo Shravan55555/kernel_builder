@@ -8,14 +8,14 @@ task:
   name: "Kernel deploy.."
   timeout_in: 120m
   container:
-    image: nexgang/ubuntu:latest
+    image: accupara/aosp:ubuntu
     cpu: 8
     memory: 32G
     stateful: true
     greedy: true
   Build_script:
 
-    - git clone --depth=1 https://github.com/sksayz5/kernel_realme_sdm710 -b 14 RMX1901 && cd RMX1901
+    - git clone https://$GH_TOKEN@github.com/sksayz5/Build_Script.git b main RMX1901 && cd RMX1901
     - bash build.sh
 
 
