@@ -3,6 +3,7 @@ env:
 
   chat_id: "ENCRYPTED[!655813cb6986b79acdf80606f20b48274840a8ff388e13c01fd1964ccfb0f6ec22304c635c1d473b00ce3f39939e6874!]"
 
+  GH_TOKEN: "ENCRYPTED[!289e4d330898be91b3aeb2600ffc7d57346c85a5da0fa41132b5541c41c46fae0a50c1e132c744bd52695323c6dae5ee!]"
 
 task:
   name: "Kernel deploy.."
@@ -15,7 +16,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/sksayz5/Build_Script.git -b main RMX1901 && cd RMX1901
+    - git clone https://$GH_TOKENgithub.com/sksayz5/Build_Script.git -b main RMX1901 && cd RMX1901
     - bash build.sh -s
 
 
