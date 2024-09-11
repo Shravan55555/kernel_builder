@@ -16,8 +16,8 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/sksayz5/kernel_realme_sdm710.git -b 14 RMX1901 && cd RMX1901
-    - bash build.sh
+    - git clone https://github.com/sksayz5/Build_Script.git -b main RMX1901 && cd RMX1901
+    - python ci_bot.py -h
 
 
 
