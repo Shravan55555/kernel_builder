@@ -14,8 +14,8 @@ task:
     memory: 32G
     stateful: true
     greedy: true
-  Build_script:
+Build_script:
 
-    - curl -sL https://github.com/shravansayz/scripts/raw/refs/heads/14.0/evolution/crave/make-all.sh | bash
+      - curl -sL https://github.com/shravansayz/scripts/raw/refs/heads/14.0/evolution/crave/make-all.sh | bash
 
 
