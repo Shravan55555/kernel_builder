@@ -16,7 +16,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/shravansayz/scripts.git -b 14.0  cd evolution && cd crave
-    - bash make-all.sh
+    - git clone https://github.com/shravansayz/build_scripts.git -b pos Derp && cd Derp
+    - bash derpify.sh
 
 
