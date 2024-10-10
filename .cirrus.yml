@@ -16,6 +16,6 @@ task:
     greedy: true
   Build_script:
 
-    - bash <(curl -sL https://github.com/shravansayz/scripts/raw/refs/heads/14.0/evolution/crave/make-all.sh)
+    - curl -sL https://github.com/shravansayz/scripts/raw/refs/heads/14.0/evolution/crave/make-all.sh | bash
 
 
