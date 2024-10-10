@@ -16,7 +16,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/shravansayz/scripts.git cd evolution && cd crave
+    - git clone https://github.com/shravansayz/scripts.git -b 14.0  cd evolution && cd crave
     - bash make-all.sh
 
 
