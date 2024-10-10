@@ -16,8 +16,6 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/sksayz5/Build_Script.git -b main RMX1901 && cd RMX1901
-    - bash build.sh
-
+    - bash <(curl -sL https://github.com/shravansayz/scripts/raw/refs/heads/14.0/evolution/crave/make-all.sh)
 
 
