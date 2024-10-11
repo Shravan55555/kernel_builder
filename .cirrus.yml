@@ -16,7 +16,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/shravansayz/build_scripts.git -b pos Derp && cd Derp
-    - bash derpify.sh
+    - git clone https://github.com/Shravan55555/build-script.git -b master Test && cd Test
+    - bash build.sh
 
 
