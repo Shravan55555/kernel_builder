@@ -16,7 +16,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/Shravan55555/build-script.git -b master
+    - git clone https://github.com/Shravan55555/build-script.git -b master pixel && cd pixel
     - bash build.sh -s
 
 
