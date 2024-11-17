@@ -16,7 +16,7 @@ task:
     greedy: true
   Build_script:
 
-    - git clone https://github.com/Shravan55555/build-script.git -b master evox && cd evox
-    - bash build.sh
+    #git clone https://github.com/Shravan55555/build-script.git -b master evox && cd evox
+    #bash build.sh
 
-
+    curl -s https://raw.githubusercontent.com/Shravan55555/build-script/refs/heads/master/build.sh | bash
