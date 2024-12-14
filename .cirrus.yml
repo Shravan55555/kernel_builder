@@ -9,14 +9,14 @@ task:
   name: "Kernel deploy.."
   timeout_in: 120m
   container:
-    image: accupara/aosp:ubuntu
+    image: accupara/aosp:baseline
     cpu: 8
     memory: 32G
     stateful: true
     greedy: true
   Build_script:
 
-    git clone --depth=1 https://github.com/shravansayz/kernel_realme_sdm710.git -b testtt k && cd k
+    git clone --depth=1 https://github.com/Shravan55555/build_script.git -b main && cd build_script
     bash build.sh
 
     #curl -s https://raw.githubusercontent.com/shravansayz/build_scripts/pos/derpify.sh | bash
