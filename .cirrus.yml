@@ -16,6 +16,6 @@ task:
     greedy: true
   Build_script:
           
-          git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
+          #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
     
-    #curl -s https://raw.githubusercontent.com/shravansayz/build_scripts/pos/derpify.sh | bash
+          curl -s https://raw.githubusercontent.com/Shravan55555/build_script/main/build.sh | bash
