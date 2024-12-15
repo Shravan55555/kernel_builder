@@ -18,4 +18,4 @@ task:
           
           #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
     
-           rm -rf scripts && git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh"
+           rm -rf scripts && git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
