@@ -18,8 +18,7 @@ task:
           
           #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
           
-           git clone https://github.com/shravansayz/Build-Scripts.git -b main crd
-           cd crd
+           git clone --depth 1https://github.com/shravansayz/Build-Scripts.git -b main crd && cd crd
            bash build.sh
           
            #rm -rf scripts && git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
