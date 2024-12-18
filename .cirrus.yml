@@ -16,8 +16,8 @@ task:
     greedy: true
   Build_script:
           
-           git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
+           #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
           
-          
+           bash <(curl -sL https://git.keyedlimepie.org/Shravan55555/Build_script.git)
           
            #rm -rf scripts && git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
