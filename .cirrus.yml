@@ -16,10 +16,7 @@ task:
     greedy: true
   Build_script:
           
-            git clone https://github.com/shravansayz/kernel_realme_sdm710.git -b wip kernel/realme/sdm710
-            cd kernel/realme/sdm710
-            curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
-            cd ../../..
+           curl -s https://raw.githubusercontent.com/shravansayz/build_scripts/pos/build.sh | bash
            #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
           
            #bash <(curl -sL https://git.keyedlimepie.org/Shravan55555/Build_script.git)
