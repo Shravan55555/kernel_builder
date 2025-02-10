@@ -16,8 +16,8 @@ task:
     greedy: true
   Build_script:
           
-           git clone https://github.com/Shravan55555/scripts.git -b vayu --depth=1
-           chmod u+x scripts/sync.sh
+           git clone https://github.com/Shravan55555/scripts.git -b vayu --depth=1 &&
+           chmod u+x scripts/sync.sh &&
            bash scripts/sync.sh
            #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
           
