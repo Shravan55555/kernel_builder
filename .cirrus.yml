@@ -12,13 +12,9 @@ task:
     image: accupara/aosp:baseline
     cpu: 8
     memory: 32G
-    stateful: true
-    greedy: true
   Build_script:
           
-           git clone https://github.com/Shravan55555/scripts.git -b vayu --depth=1 &&
-           chmod u+x scripts/sync.sh &&
-           bash scripts/sync.sh
+           curl -s https://raw.githubusercontent.com/shravansayz/build_scripts/pos/pixelos.sh | bash
            #git clone https://github.com/Shravan55555/build_script.git && bash build_script/build.sh
           
            #bash <(curl -sL https://git.keyedlimepie.org/Shravan55555/Build_script.git)
